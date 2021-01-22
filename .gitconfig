@@ -1,0 +1,27 @@
+[commit]
+	template = C:\\Users\\travelsky\\gitmessage
+[core]
+	editor = 'D:\\exe\\toolexe\\Notepad++\\notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+	quotepath = false
+[push]
+	default = simple
+[merge]
+	tool = bc3
+[mergetool "bc3"]
+	cmd = \"D:\\exe\\toolexe\\BeyondCompare_Xp580\\BCompare.exe\"  \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+	trustExitCode = true
+	path = D:\\exe\\toolexe\\BeyondCompare_Xp580\\BCompare.exe
+[diff]
+	tool = bc3
+[difftool "bc3"]
+	path = D:\\exe\\toolexe\\BeyondCompare_Xp580\\BCompare.exe
+[mergetool]
+	keepBackup = false
+[gui]
+	
+[http]
+	sslVerify = false
+	postBuffer = 524288000
+[user]
+	name = guangjl
+	email = guangjl@travelsky.com
